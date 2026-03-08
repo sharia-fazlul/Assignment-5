@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind+daisy -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="navbar bg-base-100 shadow-sm">
+          <div class="flex-1">
+            <img
+              src="./B13-A5-Github-Issue-Tracker/assets/github-logo.png"
+              alt=""
+            />
+          </div>
+          <div class="flex gap-2">
+            <input
+              type="text"
+              placeholder="Search issues..."
+              class="input input-bordered w-24 md:w-auto"
+            />
+            <div class="text-[#ffffff] bg-[#4A00FF]">
+              <div tabindex="0" role="button" class="btn btn-ghost avatar">
+                <button class="w-20">New Issue</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex items-center space-y-9 w-[80%] mx-auto mt-8 h-[90px] border-0 shadow-xl"
+      >
+        <div class="p-8">
+          <button
+            id="all"
+            class="bg-[#3B82F6] text-[#ffffff] px-6 py-2 border-1 rounded-xl"
+          >
+            All
+          </button>
+          <button
+            id="interv"
+            class="px-6 py-2 rounded-xl bg-[#ffffff] text-[#002c5cb7] border-1"
+          >
+            Opened
+          </button>
+          <button
+            id="reject"
+            class="px-6 py-2 rounded-xl bg-[#ffffff] text-[#002c5cb7] border-1"
+          >
+            Closed
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="flex justify-between space-y-9 w-[80%] mx-auto mt-8 h-[90px] border-1 border-[#d1c6c682] "
+      >
+        <div >
+          <!-- left -->
+          <div class="flex p-8 gap-4">
+            <div>
+              <img
+                src="./B13-A5-Github-Issue-Tracker/assets/Aperture.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="font-bold">50 Issues</p>
+
+              <p class="text-[#64748B]">Track and manage your project issues</p>
+            </div>
+            <!-- right -->
+            <div class="flex ml-244">
+            <ul>
+              <img
+                src="./B13-A5-Github-Issue-Tracker/assets/Open-Status.png"
+                alt=""
+              />Open
+            </ul>
+        <ul>
+              <img
+                src="./B13-A5-Github-Issue-Tracker/assets/Closed- Status .png"
+                alt=""
+              />Closed
+          </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

@@ -31,6 +31,66 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet" href="styles/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body>
+    <header >
+      <section>
+        <div class=" flex justify-center w-[20%] h-[743px] mx-auto mt-18  shadow-2xl">
+        <div class="bg-[#ffffff] space-y-8">
+          <img class="mx-auto mt-6"
+            src="./B13-A5-Github-Issue-Tracker/assets/github-logo.png"
+            alt=""
+          />
+          <h2 class="text-center font-bold text-2xl">GitHub Issues Tracker</h2>
+          <p class="text-center font-normal text-[16px] text-[#64748B] ">Sign in to manage your issues</p>
+        
+<p>
+        <form
+          class="fieldset bg-base-500 border-base-300 rounded-box w-xs "
+        >
+          <fieldset class="fieldset">
+            <label class="label">Username</label>
+            <input
+              type="text"
+              class="input validator"
+              placeholder="Enter Username"
+              required
+            />
+            <p class="validator-hint hidden">Required</p>
+          </fieldset>
+
+          <label class="fieldset">
+            <span class="label">Password</span>
+            <input
+              type="password"
+              class="input validator"
+              placeholder="Password"
+              required
+            />
+            <span class="validator-hint hidden">Required</span>
+          </label>
+
+          <button class="btn btn-neutral mt-4" type="submit">Sign in</button>
+          
+        </form> 
+        </p>
+
+        <p >
+  <div class="divider">OR</div>
+  
+ </p>
+<h3 class="text-center">Demo Credentials:</h3>
+<div class="text-center  border-0 bg-[#99aecc66] rounded-2xl mb-2"><h2>Username: admin
+ <br>
+Password: admin123</h2>
+</div>
+        </div>
+        </div>
+      </section>
+    </header>
+
+    <script src="./styles/style.css"></script>
+  </body>
 </html>
